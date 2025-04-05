@@ -1,36 +1,74 @@
-# AH Curation AI 🎯
+🧠 AH Curation AI
+Team Name: The Blackhat Legends
+Track: Technology Track – AH Hackathon 2025
 
-**Team Name**: The Blackhat Legends  
-**Project Name**: AH Curation AI  
-**Track**: Technology Track – AH Hackathon 2025
+🚀 Project Overview
+AH Curation AI is an intelligent content recommendation system powered by a multi-agent architecture. It adapts dynamically to user behavior and feedback to deliver personalized suggestions. It integrates knowledge graphs to understand deep product relationships and continuously improves using behavioral feedback stored in memory.
 
-## 🚀 Project Overview
+🌟 Key Features
+🤖 Multi-Agent System: Customer, Product, and Recommendation Agents
 
-AH Curation AI is an intelligent content recommendation engine that leverages multi-agent architecture and behavioral data to personalize content delivery for users. It dynamically adapts to user feedback and integrates knowledge graphs for deep product and interest relationships.
+🔄 Real-time Personalization: Based on user feedback (likes, skips, purchases)
 
-## 🧠 Key Features
+🧠 Product Knowledge Graph: Context-aware suggestions
 
-- Multi-agent interaction using customer, product, and recommendation agents
-- Real-time personalization via feedback loops
-- Embedded product knowledge graph
-- SQLite-based user feedback memory
-- Frontend built for intuitive UX
+🗃 Feedback Memory: SQLite-powered persistent learning
 
-## 🛠️ Tech Stack
+💻 Interactive UI: Built using modern frontend tech (React)
 
-- **Backend**: Python
-- **Database**: SQLite
-- **Frontend**: Streamlit / HTML (based on project)
-- **AI Models**: Custom Recommendation Engine
-- **Deployment**: Local demo / [host if applicable]
+🛠️ Tech Stack
+Layer	Technology
+Backend	Python (FastAPI / Flask)
+Frontend	JavaScript (React / Vite)
+Database	SQLite
+AI Engine	Custom recommendation logic
+Deployment	Local (dual-server run)
+📹 Demo
+👉 [Click here to watch the demo video](https://drive.google.com/file/d/1p0ArTlITrGhsv29GFOPTMzeGg7qadO7a/view?usp=sharing)
 
-## 🧪 Demo
+📁 How to Run Locally
+bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/ARULDASSAD1/AH-Curation-AI.git
+cd AH-Curation-AI
+🖥️ Start Backend (Python API)
+bash
+Copy
+Edit
+# Install Python dependencies
+pip install -r requirements.txt
 
-▶️ **[Click here to watch the demo video](https://drive.google.com/file/d/1p0ArTlITrGhsv29GFOPTMzeGg7qadO7a/view?usp=drive_link)**
+# Run the backend server
+python api.py
+🌐 Start Frontend (React / JavaScript)
+bash
+Copy
+Edit
+# Navigate to UI folder if it's in a subdirectory
+cd UI
 
-## 📁 How to Run
+# Install frontend dependencies
+npm install
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/yourusername/ah-curation-ai.git
-   cd ah-curation-ai
+# Run the frontend dev server
+npm run dev
+Ensure both frontend and backend are running for the app to function properly.
+
+📊 Architecture Overview
+Customer Agent: Gathers behavioral data
+
+Product Agent: Queries product info and semantic relations
+
+Recommendation Agent: Combines user and product data for suggestions
+
+Feedback Loop: Updates SQLite with actions for improved future results
+
+📈 Expected Impact
+This AI-driven curation system is projected to boost user engagement by 20%, offering precise, personalized recommendations that adapt over time.
+
+👨‍💻 Contributors
+Aruldass – Backend, Frontend, Architecture
+
+Hemanshu – Recommendation Logic, Integration
